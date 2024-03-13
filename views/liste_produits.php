@@ -27,14 +27,14 @@
             <td><?= $produit->pu."DH"?></td>
             <td><?= $produit->nomPr?></td>
             <td class="row">
-                <a class="btn btn-warning btn-sm" href="edit.php?code=<?php echo $produit->code ?>"> Modifier </a> ||
-                <a class="btn btn-danger btn-sm" href="delete.php?code=<?php echo $produit->code ?>">Supprimer</a>
+                <a class="btn btn-warning btn-sm" href="index.php?action=edit&code=<?php echo $produit->code ?>"> Modifier </a> ||
+                <a class="btn btn-danger btn-sm" href="index.php?action=delete&code=<?php echo $produit->code ?>">Supprimer</a>
             </td>
             </tr>
         <?php endforeach; ?>
     </tbody>
 </table>
-<a href="create.php" class="btn btn-primary mb-3">Ajouter</a>
+<a href="index.php?action=create" class="btn btn-primary mb-3">Ajouter</a>
 <?php $content=ob_get_clean(); ?>
 
 

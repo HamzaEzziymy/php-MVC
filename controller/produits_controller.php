@@ -16,7 +16,7 @@ function createAction(){
 }
 function storeAction(){
     create();
-    header("location:index.php");
+    header("location:index.php?action=listep");
 }
 
 
@@ -39,7 +39,7 @@ function updateAction(){
     $nomPr = $_POST["nomPr"];
 
     edit($code, $desg, $qtes, $pu, $idCat, $nomPr);
-    header("location:index.php");
+    header("location:index.php?action=listep");
 
 }
 
@@ -52,5 +52,5 @@ function deleteAction(){
 function destroyAction(){
     $code = $_GET["code"];
     destroy($code);
-    header("location:index.php");
+    header("location:index.php?action=listep");
 }

@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">Liste Des Produits<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php?action=listep">Liste Des Produits<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="create.php">Ajouter</a>
+                <a class="nav-link" href="index.php?action=create">Ajouter</a>
             </li>
             
 

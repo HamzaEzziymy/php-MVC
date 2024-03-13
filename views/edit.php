@@ -5,7 +5,7 @@
 ?>
 
 <div class="containerr">
-  <form action="update.php" method="post">
+  <form action="index.php?action=update" method="post">
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="NomCat">Nom Category</label>

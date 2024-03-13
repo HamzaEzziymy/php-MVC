@@ -4,7 +4,7 @@
 ?>
 
 <div class="containerr">
-  <form action="store.php" method="post">
+  <form action="index.php?action=store" method="post">
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="NomCat">Nom Category</label>
